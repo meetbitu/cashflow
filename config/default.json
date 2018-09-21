@@ -1,0 +1,39 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  },
+  "tests": {
+    "environmentsAllowingSeedData": [
+      "test"
+    ]
+  },
+  "authentication": {
+    "secret": "ffb72b6be03bb9fa16661751eb8957486890d689d8120da0d7d0cdb17d0a33ed1b305c64f32005696c461bdd7d9aaf109e61db703160d97e8aac723a762d6ac61edfb4d390b7c30ba494d0cd3040b7a4af7bff32e461719147503df479dfbb8acde686546709d5076a32c27dc424ab21751ab703c0d416f67e8dca7199724c330eccc77dae8c05e0d15046ab321ed684ed63a0886750322f9a9c28dde5680121df145f346d2824b27350eb4934238285717b13ec1a586367c72bdc691b0501f3671ea7f74fd24cb529b56c5fb3bcf684a9bb89d862cca60972ff200bed254c8a8e4ed5c1ed27c11f58eac8fd37344ec1b374f629efb74464a125d7ee1bbac5f2",
+    "strategies": [
+      "jwt",
+      "local"
+    ],
+    "path": "/authentication",
+    "service": "users",
+    "jwt": {
+      "header": {
+        "typ": "access"
+      },
+      "audience": "https://yourdomain.com",
+      "subject": "anonymous",
+      "issuer": "feathers",
+      "algorithm": "HS256",
+      "expiresIn": "1d"
+    },
+    "local": {
+      "entity": "user",
+      "usernameField": "email",
+      "passwordField": "password"
+    }
+  },
+  "mysql": "mysql://flow:flow@mysql:3306/flow"
+}

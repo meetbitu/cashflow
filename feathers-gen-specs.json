@@ -7,9 +7,43 @@
     "ts": false
   },
   "app": {
-    "environmentsAllowingSeedData": "",
-    "seedData": false
+    "environmentsAllowingSeedData": "test",
+    "seedData": false,
+    "name": "bitu",
+    "description": "Automate everyday business decisions",
+    "src": "src",
+    "packager": "npm@>= 3.0.0",
+    "providers": [
+      "rest",
+      "socketio"
+    ]
   },
-  "services": {},
-  "hooks": {}
+  "services": {
+    "users": {
+      "name": "users",
+      "nameSingular": "user",
+      "subFolder": "",
+      "fileName": "users",
+      "adapter": "sequelize",
+      "path": "/users",
+      "isAuthEntity": true,
+      "requiresAuth": true,
+      "graphql": false
+    }
+  },
+  "hooks": {},
+  "authentication": {
+    "strategies": [
+      "local"
+    ],
+    "entity": "users"
+  },
+  "_hooks": {},
+  "connections": {
+    "sequelize": {
+      "database": "mysql",
+      "adapter": "sequelize",
+      "connectionString": "mysql://flow:flow@mysql:3306/flow"
+    }
+  }
 }
