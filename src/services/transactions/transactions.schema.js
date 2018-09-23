@@ -13,14 +13,14 @@ let schema = {
 
   // Required fields.
   required: [
-    // !code: schema_required // !end
-  ],
-  // Fields with unique values.
-  uniqueItemProperties: [
-    // !code: schema_unique
+    // !code: schema_required
     'description',
     'amount',
     // !end
+  ],
+  // Fields with unique values.
+  uniqueItemProperties: [
+    // !code: schema_unique // !end
   ],
 
   // Fields in the model.

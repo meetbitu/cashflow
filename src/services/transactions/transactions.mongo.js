@@ -20,7 +20,11 @@ let moduleExports = merge({},
       description: {
         bsonType: "string"
       }
-    }
+    },
+    required: [
+      "description",
+      "amount"
+    ]
   },
   // !end
   // !code: moduleExports // !end

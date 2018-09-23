@@ -13,11 +13,11 @@ let moduleExports = merge({},
   {
     amount: {
       type: DataTypes.TEXT,
-      unique: true
+      allowNull: false
     },
     description: {
       type: DataTypes.TEXT,
-      unique: true
+      allowNull: false
     }
   },
   // !end

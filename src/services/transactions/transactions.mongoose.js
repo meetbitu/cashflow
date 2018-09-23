@@ -12,11 +12,11 @@ let moduleExports = merge({},
   {
     amount: {
       type: String,
-      unique: true
+      required: true
     },
     description: {
       type: String,
-      unique: true
+      required: true
     }
   },
   // !end

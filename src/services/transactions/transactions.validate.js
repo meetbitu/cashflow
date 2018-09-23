@@ -17,11 +17,11 @@ let base = merge({},
   {
     title: "Transactions",
     description: "Transactions database.",
-    required: [],
-    uniqueItemProperties: [
+    required: [
       "description",
       "amount"
     ],
+    uniqueItemProperties: [],
     properties: {
       amount: {
         type: "string"
