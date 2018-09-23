@@ -19,3 +19,11 @@ services:
       MYSQL_DATABASE: flow
       MYSQL_USER: flow
       MYSQL_PASSWORD: flow
+  caddy:
+    build:
+      context: .docker/caddy
+      dockerfile: DockerfileCaddy
+    ports:
+      - "2015:2015"
+    volumes:
+      - .:/srv
