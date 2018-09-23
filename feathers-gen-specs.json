@@ -29,6 +29,17 @@
       "isAuthEntity": true,
       "requiresAuth": true,
       "graphql": false
+    },
+    "transactions": {
+      "name": "transactions",
+      "nameSingular": "transaction",
+      "subFolder": "",
+      "fileName": "transactions",
+      "adapter": "sequelize",
+      "path": "/transactions",
+      "isAuthEntity": false,
+      "requiresAuth": true,
+      "graphql": false
     }
   },
   "hooks": {},
