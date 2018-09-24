@@ -23,11 +23,16 @@ let base = merge({},
     ],
     uniqueItemProperties: [],
     properties: {
-      amount: {
-        type: "string"
-      },
       description: {
         type: "string"
+      },
+      amount: {
+        type: "number",
+        multipleOf: 1
+      },
+      balance: {
+        type: "number",
+        multipleOf: 1
       }
     }
   },

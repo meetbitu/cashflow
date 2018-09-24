@@ -26,8 +26,15 @@ let schema = {
   // Fields in the model.
   properties: {
     // !code: schema_properties
-    amount: {},
     description: {},
+    amount: {
+      type: 'number',
+      multipleOf: 1.00,
+    },
+    balance: {
+      type: 'number',
+      multipleOf: 1.00,
+    }
     // !end
   },
   // !code: schema_more // !end

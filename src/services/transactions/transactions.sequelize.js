@@ -11,13 +11,16 @@ const DataTypes = Sequelize.DataTypes;
 let moduleExports = merge({},
   // !<DEFAULT> code: sequelize_model
   {
-    amount: {
-      type: DataTypes.TEXT,
-      allowNull: false
-    },
     description: {
       type: DataTypes.TEXT,
       allowNull: false
+    },
+    amount: {
+      type: DataTypes.REAL,
+      allowNull: false
+    },
+    balance: {
+      type: DataTypes.REAL
     }
   },
   // !end

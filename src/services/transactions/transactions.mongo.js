@@ -14,11 +14,16 @@ let moduleExports = merge({},
       _id: {
         bsonType: "objectId"
       },
-      amount: {
-        bsonType: "string"
-      },
       description: {
         bsonType: "string"
+      },
+      amount: {
+        multipleOf: 1,
+        bsonType: "number"
+      },
+      balance: {
+        multipleOf: 1,
+        bsonType: "number"
       }
     },
     required: [

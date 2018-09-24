@@ -10,14 +10,15 @@ const mongoose = require('mongoose');
 let moduleExports = merge({},
   // !<DEFAULT> code: model
   {
-    amount: {
-      type: String,
-      required: true
-    },
     description: {
       type: String,
       required: true
-    }
+    },
+    amount: {
+      type: Number,
+      required: true
+    },
+    balance: Number
   },
   // !end
   // !code: moduleExports // !end
