@@ -34,7 +34,11 @@ let schema = {
     balance: {
       type: 'number',
       multipleOf: 1.00,
-    }
+    },
+    weight: {
+      type: 'number',
+      multipleOf: 1,
+    },
     // !end
   },
   // !code: schema_more // !end

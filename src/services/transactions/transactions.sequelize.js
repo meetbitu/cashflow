@@ -21,6 +21,9 @@ let moduleExports = merge({},
     },
     balance: {
       type: DataTypes.REAL
+    },
+    weight: {
+      type: DataTypes.REAL
     }
   },
   // !end

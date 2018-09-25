@@ -18,7 +18,8 @@ let moduleExports = merge({},
       type: Number,
       required: true
     },
-    balance: Number
+    balance: Number,
+    weight: Number
   },
   // !end
   // !code: moduleExports // !end

@@ -33,6 +33,10 @@ let base = merge({},
       balance: {
         type: "number",
         multipleOf: 1
+      },
+      weight: {
+        type: "number",
+        multipleOf: 1
       }
     }
   },

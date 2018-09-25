@@ -24,6 +24,10 @@ let moduleExports = merge({},
       balance: {
         multipleOf: 1,
         bsonType: "number"
+      },
+      weight: {
+        multipleOf: 1,
+        bsonType: "number"
       }
     },
     required: [
