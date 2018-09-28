@@ -1,0 +1,76 @@
+{
+  "users": [
+    {
+      "email": "adipisicing enim sit cupidatat",
+      "firstName": "veniam do ut aliquip ut",
+      "lastName": "sunt magna eu Lorem",
+      "id": 1,
+      "password": "sint irure culpa in"
+    },
+    {
+      "email": "in cillum fugiat cupidatat",
+      "firstName": "ut velit et id",
+      "lastName": "ipsum",
+      "id": 2,
+      "password": "ut velit ad laboris"
+    },
+    {
+      "email": "commodo ut id",
+      "firstName": "fugiat culpa",
+      "lastName": "in eiusmod nulla cupidatat",
+      "id": 3,
+      "password": "ad dolor incididunt anim"
+    },
+    {
+      "email": "ut Lorem sed",
+      "firstName": "sed proident ut mollit",
+      "lastName": "Ut consequat",
+      "id": 4,
+      "password": "sit sin"
+    },
+    {
+      "email": "commodo",
+      "firstName": "in elit ut velit",
+      "lastName": "culpa ullamco incididunt nostru",
+      "id": 5,
+      "password": "fu"
+    }
+  ],
+  "transactions": [
+    {
+      "description": "ut veniam",
+      "amount": 71512522,
+      "balance": -49517999,
+      "weight": -63615918,
+      "id": 1
+    },
+    {
+      "description": "consequat anim tempor laboris",
+      "amount": 48326570,
+      "balance": -74828654,
+      "weight": -88772936,
+      "id": 2
+    },
+    {
+      "description": "aute fugiat aliquip",
+      "amount": 9246399,
+      "balance": 75398849,
+      "weight": -33495329,
+      "id": 3
+    },
+    {
+      "description": "Excepteur dolore",
+      "amount": -83989859,
+      "balance": 82417562,
+      "weight": -83635664,
+      "id": 4
+    },
+    {
+      "description": "occaecat dolore in culpa adipisicing",
+      "amount": -49564357,
+      "balance": 88384534,
+      "weight": 31690364,
+      "id": 5
+    }
+  ]
+}

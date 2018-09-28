@@ -52,6 +52,7 @@
     "winston": "^3.1.0"
   },
   "devDependencies": {
+    "@feathers-plus/test-utils": "^0.3.1",
     "eslint": "^5.6.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.4",

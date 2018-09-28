@@ -1,6 +1,6 @@
 {
   "mongodb": " ",
-  "mysql": " ",
+  "mysql": "mysql://flow:flow@mysql:3306/flow",
   "nedb": " ",
   "postgres": " ",
   "rethinkdb": " ",
